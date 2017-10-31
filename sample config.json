@@ -1,0 +1,39 @@
+{
+    "database": {
+        "jclass": "com.database.driver",
+        "connstring": "database conn string",
+        "jar": "/path/to/jar/file"
+    },
+    "apikey": "numetric API key",
+    "tables": [
+        {
+            "databaseTableName": "tablename1",
+            "dateColumns": [
+                "column1",
+                "column2",
+                "column3"
+            ],
+            "lastUpdateValue": "2017-10-03 12:46:01.645",
+            "numetricTableName": "table1",
+            "primaryKeys": [
+                "pk1"
+            ],
+            "updateColumn": "update_column_name"
+        },
+        {
+            "databaseTableName": "tablename2",
+            "dateColumns": [
+                "column1",
+                "column2",
+                "column3"
+            ],
+            "lastUpdateValue": "1191503196",
+            "numetricTableName": "tabl2",
+            "primaryKeys": [
+                "pk2"
+            ],
+            "updateColumn": "update_column_name"
+        }
+    ],
+    "lastRun": "2017-10-03 12:46:01"
+}
